@@ -3,7 +3,6 @@ import webbrowser as wb
 from assistantanswer import tts
 
 chrome_path='C:/Program Files (x86)/Google/Chrome/Applications/chrome.exe %s'
-
 r=sr.Recognizer()
 
 with sr.Microphone() as source:
